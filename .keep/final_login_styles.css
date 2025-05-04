@@ -1,0 +1,86 @@
+
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body styling */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f0f2f5;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Login card */
+.login-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  width: 320px;
+}
+
+.login-card h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #111;
+}
+
+/* Labels and inputs */
+form label {
+  display: block;
+  font-size: 0.95rem;
+  margin-bottom: 0.25rem;
+  color: #444;
+}
+
+form input {
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+/* Button group */
+.button-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+/* Buttons */
+.button-group button {
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+}
+
+.button-group button[type="submit"] {
+  background-color: #1A73E8;
+  color: white;
+  font-weight: 500;
+}
+
+.button-group button[type="submit"]:hover {
+  background-color: #1666cc;
+}
+
+.button-group button[type="button"] {
+  background-color: #fff;
+  color: #444;
+  border: 1px solid #ccc;
+}
+
+.button-group button[type="button"]:hover {
+  background-color: #f2f2f2;
+}
